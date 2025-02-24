@@ -26,4 +26,7 @@ public class UsuarioController {
     public Usuario saveUsuario(@RequestBody Usuario usuario) {
         return usuarioService.saveUsuario(usuario);
     }
+
+    @GetMapping("/teste")
+    public String Teste(){return "TESTE";}
 }
