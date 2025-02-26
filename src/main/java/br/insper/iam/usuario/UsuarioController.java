@@ -32,6 +32,4 @@ public class UsuarioController {
         return usuarioService.saveUsuario(usuario);
     }
 
-    @GetMapping("/teste")
-    public String Teste(){return "TESTE";}
 }
